@@ -173,7 +173,7 @@ void doVMTests(json_spirit::mValue& v, bool _fillin);
 void doBlockchainTests(json_spirit::mValue& _v, bool _fillin);
 void doBlockchainTestNoLog(json_spirit::mValue& _v, bool _fillin);
 void doTransitionTest(json_spirit::mValue& _v, bool _fillin);
-void doRlpTests(json_spirit::mValue& v, bool _fillin);
+void doRlpTests(json_spirit::mValue const& _input);
 void addClientInfo(json_spirit::mValue& v, std::string const& _testSource);
 void removeComments(json_spirit::mValue& _obj);
 
