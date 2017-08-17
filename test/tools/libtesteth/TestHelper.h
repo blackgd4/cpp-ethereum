@@ -168,7 +168,7 @@ json_spirit::mObject fillJsonWithState(eth::State const& _state, eth::AccountMas
 json_spirit::mObject fillJsonWithTransaction(eth::Transaction const& _txn);
 
 //Fill Test Functions
-int createRandomTest();
+int createRandomTest();	//returns 0 if succeed, 1 if there was an error;
 void doTransactionTests(json_spirit::mValue& _v, bool _fillin);
 void doStateTests(json_spirit::mValue& v, bool _fillin);
 void doVMTests(json_spirit::mValue& v, bool _fillin);
